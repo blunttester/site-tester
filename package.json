@@ -1,0 +1,30 @@
+{
+  "name": "site-tester",
+  "version": "0.0.1",
+  "description": "Lightweight website tester",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lighthouse": "node ./src/lighthouse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blunttester/site-tester.git"
+  },
+  "keywords": [
+    "test",
+    "site",
+    "lighthouse",
+    "nikto"
+  ],
+  "author": "jan matilainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blunttester/site-tester/issues"
+  },
+  "homepage": "https://github.com/blunttester/site-tester#readme",
+  "dependencies": {
+    "lighthouse": "^5.1.0",
+    "puppeteer": "^1.18.1"
+  }
+}
