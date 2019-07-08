@@ -4,7 +4,7 @@
   "description": "Lightweight website tester",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "lighthouse": "node ./src/lighthouse.js"
   },
   "repository": {
