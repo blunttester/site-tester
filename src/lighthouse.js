@@ -29,7 +29,7 @@ for (let url of urls) {
                         accessibility: { score: accessibilityScore },
                         'best-practices': { score: bestPracticesScore },
                         seo: { score: seoScore }
-                    }
+                    } 
                 }
             } = await lighthouse(url, {
                 port: new URL(browser.wsEndpoint()).port,
