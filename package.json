@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/blunttester/site-tester#readme",
   "dependencies": {
-    "lighthouse": "^5.1.0",
+    "lighthouse": "^9.6.7",
     "puppeteer": "^1.18.1"
   }
 }
